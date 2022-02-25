@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home/Home';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <h1>Holis Thomi es una rama</h1>
-      <p>Nuevamente estoy probando agregar cosas nuevas en el repo</p>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
     </div>
   );
 }
