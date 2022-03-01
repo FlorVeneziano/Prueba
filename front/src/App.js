@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,8 +5,11 @@ function App() {
     <div className="App">
       <h1>Holis Thomi es una rama</h1>
       <p>Probando ramita</p>
+      <p>caca</p>
     </div>
   );
+
+
 }
 
 export default App;
